@@ -4,8 +4,8 @@ body{
   font-family: "Source Sans Pro",sans-serif;
   font-size: 20px;
   line-height: 1.5;
- overflow-y: auto;
- background-color: #ffffff;
+  overflow-y: auto;
+  background-color: #ffffff;
 
 }
 h2{
@@ -14,11 +14,11 @@ color: hsl(12, 71%, 47%);
 }
 header {
 background-color:rgba(192, 129, 11, 0.877);
-padding: 30px;
+padding: 10px;
 text-align: center;
 font-size: 35px;
 color: white;
-font-size: 20px;
+font-size: 10px;
 }
 
 h1{
