@@ -8,6 +8,11 @@ body{
   background-color: #ffffff;
 
 }
+#Intro{
+  font-size: 100px;
+  color:purple;
+  font-family: cursive;
+}
 h2{
 text-align: center;
 color: rgb(230, 24, 10);
