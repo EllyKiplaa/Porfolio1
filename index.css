@@ -53,15 +53,64 @@ nav>ul>li>a:hover{
   box-shadow:white;
   background-color:white;
 }
+.column {
+	justify-content: center;
+	float: left;
+	width: 33%;
+	padding: 40px;
+	margin: solid-black;
+	background-color: #ffffff;
+  }
+  .card { 
+    padding: 10px; 
+    text-align: center; 
+    background-color: white; 
+    color: rgb(15, 13, 13); 
+    } 
+    section:after {
+      content: "";
+      display: table;
+      clear: both;
+      }
 img{
   border-radius: 10px;
   margin-top: 8px;
   margin-left: 2px;
   margin-top: 2px;
 }
-footer {
-  background-color: #777;
-  padding: 100px;
-  text-align: center;
+.main-container{
+  min-height: 100%;
+
+}
+
+
+.main-footer{
+  width: 100%;
+  height:auto;
+  background-color: aqua ;
+  padding: 20px;
+}
+   
+.social-media ul{
+  list-style: none;
+  font-family: Arial;
+  font-size: 12px;
   color: white;
+  margin-left: 50px;
+  padding: 20px; 
+
+}    
+
+.social-media{
+  font-family: Arial;
+  font-size: 15px;
+  color: white;
+  margin-left: 10px;
+  padding: 10px; 
+  text-align: left;
+
+}    
+.copyright{
+  font-size: 20px;
+  text-align-last: auto;
 }
