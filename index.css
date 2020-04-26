@@ -10,10 +10,10 @@ body{
 }
 h2{
 text-align: center;
-color: hsl(12, 71%, 47%);
+color: rgb(230, 24, 10);
 }
 header {
-background-color:rgba(192, 129, 11, 0.877);
+background-color:skyblue;
 padding: 10px;
 text-align: center;
 font-size: 35px;
@@ -46,7 +46,7 @@ nav>ul>li>a{
   text-transform:uppercase;
   text-decoration:none;
   display:block;
-  color:rgba(224, 190, 77, 0.979);
+  color:rgba(58, 28, 230, 0.979);
   font-size: 50px;
 }
 nav>ul>li>a:hover{
@@ -104,7 +104,7 @@ img{
 .main-footer{
   width: auto;
   height:auto;
-  background-color:rgba(192, 129, 11, 0.877) ;
+  background-color:skyblue ;
   padding: 20px;
 }
    
