@@ -46,7 +46,7 @@ nav>ul>li>a{
   text-transform:uppercase;
   text-decoration:none;
   display:block;
-  color:rgba(19, 190, 47, 0.733);
+  color:rgba(19, 87, 190, 0.733);
   font-size: 50px;
 }
 nav>ul>li>a:hover{
@@ -56,16 +56,16 @@ nav>ul>li>a:hover{
 .column {
 	justify-content: center;
 	float: left;
-	width: 33%;
-	padding: 40px;
+	width: 20%;
+	padding: 30px;
 	margin: solid-black;
-	background-color: #ffffff;
+  background-color: #ffffff;
   }
 .card { 
-  padding: 10px; 
-  text-align: center; 
+  padding: 30px; 
   background-color: white; 
   color: rgb(15, 13, 13); 
+
   } 
   section:after {
     content: "";
