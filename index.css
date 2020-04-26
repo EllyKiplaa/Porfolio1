@@ -73,6 +73,13 @@ nav>ul>li>a:hover{
   padding: 30px; 
   background-color: white; 
   color: rgb(15, 13, 13); 
+}
+  .card1{ 
+    padding: 30px; 
+    background-color: white; 
+    color: rgb(189, 15, 15); 
+    text-align: center;
+    font-size: 30px;
 
   } 
   section:after {
@@ -81,11 +88,12 @@ nav>ul>li>a:hover{
     clear: both;
     }
 img{
-  border-radius: 10px;
-  margin-top: 8px;
-  margin-left: 2px;
-  margin-top: 2px;
-  height: 1;
+  display: inline-block;
+  position: relative;
+  width: 500px;
+  height:500px;
+  overflow: hidden;
+  border-radius: 50%;
 }
 .main-container{
   min-height: 100%;
@@ -123,4 +131,10 @@ img{
 .copyright{
   font-size: 20px;
   text-align-last: center;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
 }
